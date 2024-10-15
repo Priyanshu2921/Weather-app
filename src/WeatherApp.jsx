@@ -1,7 +1,6 @@
 import SearchBox from './SearchBox'
 import InfoBox from "./InfoBox";
 import { useState } from 'react';
-import { colors } from '@mui/material';
 
 function WeatherApp() {
     const [weatherInfo,setWeatherInfo]=useState(

@@ -39,7 +39,7 @@ function InfoBox({info}) {
                     <Typography variant="body2" color="text.secondary" component={"span"} >
                         
                         <p>Temperature={info.temp}&deg;C</p>
-                        <p>Humidity={info.humidity}&deg;C</p>
+                        <p>Humidity={info.humidity}%</p>
                         <p>Min Temp={info.tempMin}&deg;C</p>
                         <p>Max Temp={info.tempMax}&deg;C</p>
                         <p>The Weather can be described as<b> <i>{info.weather}</i> </b>and  feels like {info.feelsLike}&deg;C</p>
